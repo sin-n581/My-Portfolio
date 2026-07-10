@@ -8,12 +8,12 @@ const skills = [
     { name: "SQL", level:80, category: "languages" },
     { name: "HTML/CSS", level:95, category: "languages" },
     
-    { name: "React", level:90, category: "frameworks" },
-    { name: "Express", level:85, category: "frameworks" },
-    { name: "Tailwind CSS", level:90, category: "frameworks" },
-    { name: "Next.js", level:80, category: "frameworks" },
-    { name: "Node.js", level:80, category: "frameworks" },
-    { name: ".NET", level:70, category: "frameworks" },
+    { name: "React", level:90, category: "framework & library" },
+    { name: "Express", level:85, category: "framework & library" },
+    { name: "Tailwind CSS", level:90, category: "framework & library" },
+    { name: "Next.js", level:80, category: "framework & library" },
+    { name: "Node.js", level:80, category: "framework & library" },
+    { name: ".NET", level:70, category: "framework & library" },
 
     { name: "Git/Github", level:90, category: "tools" },
     { name: "Figma", level:70, category: "tools" },
@@ -22,7 +22,7 @@ const skills = [
     
     ];
 
-const categories =["all","languages","frameworks","tools"];
+const categories =["all","languages","framework & library","tools"];
 
 
 

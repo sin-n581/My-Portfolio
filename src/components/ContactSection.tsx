@@ -3,6 +3,7 @@ import { FaDiscord, FaGithub, FaInstagram } from "react-icons/fa";
 import { cn } from  "../lib/utils";
 
 export const ContactSection = () => {
+
     return (
     <section 
     id="contact"
