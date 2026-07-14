@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react"
+import { FaDiscord, FaGithub, FaInstagram } from "react-icons/fa"
 
 export const HeroSection = () => {
     return <section 
@@ -20,11 +21,23 @@ export const HeroSection = () => {
                     gute Benutzererfahrung.
                 </p>
 
-                <div className="pt-4 opacity-0 animate-fade-in-delay-4">
-                    <a href="#projects" className="cosmic-button">
-                        View My Work
-                    </a>
-                </div>
+                <div className="pt-8 ">
+                                        <h4 className="text-2xl mb-4">Finde Mich Auf:</h4>
+                                        <div className="flex space-x-4 justify-center">
+                                            <a href="https://discord.com/users/1520548872819310746_" target="_blank">
+                                             <FaDiscord className="h-6 w-6 text-primary"/>
+                                            </a>
+                
+                                            <a href="https://github.com/sin-n581" target="_blank">
+                                             <FaGithub className="h-6 w-6 text-primary"/>
+                                            </a>
+                
+                                            <a href="https://instagram.com/sin.n_scn" target="_blank">
+                                             <FaInstagram className="h-6 w-6 text-primary"/>
+                                            </a>
+                
+                                        </div>
+                                    </div>
             </div>
         </div>
     
