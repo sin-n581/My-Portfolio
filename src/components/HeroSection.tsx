@@ -21,8 +21,8 @@ export const HeroSection = () => {
                     gute Benutzererfahrung.
                 </p>
 
-                <div className="pt-8 ">
-                                        <h4 className="text-2xl mb-4">Finde Mich Auf:</h4>
+                <div className="text-lg md:text-xl text-muted-foreground max-2-2xl mx-auto opacity-0 animate-fade-in-delay-4 pt-3 ">
+                                        <h4 className=" mb-4"> <a href="mailto:sacans581@gmail.com ">sacans581@gmail.com</a> </h4>
                                         <div className="flex space-x-4 justify-center">
                                             <a href="https://discord.com/users/1520548872819310746_" target="_blank">
                                              <FaDiscord className="h-6 w-6 text-primary"/>

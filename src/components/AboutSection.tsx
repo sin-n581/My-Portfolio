@@ -13,16 +13,22 @@ export const AboutSection = () => {
                 <div className="space-y-6">
                     <h3 className="text-2xl fon-semibold" >Passionate Web Developer & Tech Creator</h3>
                     <p className="text-muted-foreground">
-                        With over 4 years of experience in webdevelopment, I specialize
-                        in creating responsive, accessible, and perforrXmant web
-                        applications using modern technologies.
+                        Ich absolviere derzeit die Fachhochschulreife im Bereich
+                        Informatik an der Karl-Hofmann-Schule BBS Worms und möchte
+                        anschließend ein duales Studium im Bereich Informatik beginnen.
+                        
                     </p>
 
                     <p className="text-muted-foreground">
-                        I'm passionate about creating elegant solutions to complex
-                        problems, and I'm constantly learning new technologies and
-                        techniques to stay at the forefront of the ever-evolviing web
-                        landscape.
+                        Ich Zeichne mich durch Ehrgeiz, Lernbereitschaft und Kreativität aus.
+                        Neue technologien und Herausforderungen motivieren mich, mein Wissen 
+                        kontinuierlich auszubauen und praktische Lösungen zu entwickeln
+                    </p>
+
+                    <p className="text-muted-foreground">
+                        Mit meinem Portfolio möchte ich meine bisherigen Kenntnisse und Projekte präsentieren 
+                        und ein Unternehmen finden, bei dem ich im Rahmen eines Duales Studium den nächsten 
+                        Schritt in meiner Karriere gehen kann.
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
