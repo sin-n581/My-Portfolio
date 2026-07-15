@@ -5,7 +5,7 @@ const projects =[
         id: 1,
         title:"Sinopoly Game",
         description: "a Monopoly knock-off game, with lots of creativity",
-        image:"/projects/SinopolyImage.jpg",
+        image:"/projects/SinopolyImage.png",
         tags:["C#","Windows Forms"],
         gitHubURL: "https://github.com/sin-n581/SINOPOLY.git"
     },
@@ -13,7 +13,7 @@ const projects =[
         id: 2,
         title:"Project 2",
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        image:"/projects/ProjektImage2.jpg",
+        image:"/projects/PortfolioImage.png",
         tags:["TypeScript","React", "TailwindCSS"],
         gitHubURL: "https://github.com/sin-n581/SINOPOLY.git"
     },
