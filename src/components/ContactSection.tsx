@@ -14,13 +14,13 @@ export const ContactSection = () => {
                  Get In <span className="text-primary" >Touch</span> </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Have a project in mind or want to collaborate? Feel free to reach out.
-                I'm always open to discussing new opportunities.
+                Möchten Sie mit mir zusammenarbeiten oder mich engagieren?
+                Melden Sie sich gerne bei mir. Ich bin immer offen für neue Möglichketien.
             </p>
 
             <div className="grid gird-cols-1 md:grid-cols-2 gap-12">
                 <div className="space-y-8">
-                    <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>
+                    <h3 className="text-2xl font-semibold mb-6">Kontaktdaten</h3>
 
                     <div className="space-y-6 justify-center">
                         <div className="flex items-start space-x-4">
@@ -78,7 +78,7 @@ export const ContactSection = () => {
                     </div>
 
                     <div className="pt-8 ">
-                        <h4 className="font-medium mb-4">Connect With Me</h4>
+                        <h4 className="font-medium mb-4">Nehmen Sie Kontakt mit mir auf</h4>
                         <div className="flex space-x-4 justify-center">
                             <a href="https://discord.com/users/1520548872819310746_" target="_blank">
                              <FaDiscord className="h-6 w-6 text-primary"/>
@@ -99,12 +99,12 @@ export const ContactSection = () => {
 
 
                 <div className="bg-card p-8 rounded-lg shadow-xs">
-                    <h3 className=" text-3xl font-semibild mb-6">Send a Message</h3>
+                    <h3 className=" text-3xl font-semibild mb-6">Schick eine Nachricht!</h3>
                     <form className="space-y-6">
                         <div>
                             <label 
                             htmlFor="name" 
-                            className="block text-sm font-medium mb-2" >Your Name</label>
+                            className="block text-sm font-medium mb-2" >Ihr Name</label>
                             <input 
                             type="text" 
                             id="name" 
@@ -118,7 +118,7 @@ export const ContactSection = () => {
                         <div>
                             <label 
                             htmlFor="email" 
-                            className="block text-sm font-medium mb-2" >Your Email</label>
+                            className="block text-sm font-medium mb-2" >Ihre E-mail Adresse</label>
                             <input 
                             type="email" 
                             id="email" 
@@ -132,13 +132,13 @@ export const ContactSection = () => {
                         <div>
                             <label 
                             htmlFor="message" 
-                            className="block text-sm font-medium mb-2" >Your Message</label>
+                            className="block text-sm font-medium mb-2" >Ihre Nachricht</label>
                             <textarea
                             id="message" 
                             name="message" 
                             required
                             className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-primary resize-none"
-                            placeholder="Hello, I'd like to talk about..." />
+                            placeholder="Hallo,..." />
                         </div>
 
                         <button typeof="submit" className={ cn("cosmic-button w-full flex items-center justify-center gap-2"

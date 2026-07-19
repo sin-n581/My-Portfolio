@@ -15,7 +15,7 @@ export const AboutSection = () => {
                     <p className="text-muted-foreground">
                         Ich absolviere derzeit die Fachhochschulreife im Bereich
                         Informatik an der Karl-Hofmann-Schule BBS Worms und möchte
-                        anschließend ein duales Studium im Bereich Informatik beginnen.
+                        anschließend eine Ausbildung im Bereich Informatik oder Automatisierungstechnik beginnen.
                         
                     </p>
 
@@ -53,8 +53,8 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">Anwendungsentwicklung</h4>
                                 <p className="text-muted-foreground">
-                                    Creating responsive websites and web applications With
-                                    modern frameworks.
+                                    Erstellung responsiver Websites und
+                                    Anwendungen mit modernen Frameworks.
                                 </p>
                             </div>
                         </div>
@@ -69,8 +69,8 @@ export const AboutSection = () => {
                             <div className="text-left">
                                 <h4 className="font-semibold text-lg">UI/UX Design</h4>
                                 <p className="text-muted-foreground">
-                                    Designing intuitive user interfaces and
-                                    seamless user experiences.
+                                    Entwicklung einer intuitiven Benutzeroberfläche
+                                    und eines nahtlosen Benutyzrerlebnisses.
                                 </p>
                             </div>
                         </div>
@@ -83,10 +83,10 @@ export const AboutSection = () => {
                             <Settings className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">Backend Development</h4>
+                                <h4 className="font-semibold text-lg">PCB</h4>
                                 <p className="text-muted-foreground">
-                                    Leading projects from conception to completion with
-                                    agile methodologies.
+                                    Anbindung von Leiterplatten an Geräte wie 
+                                    Arduino für Automatisierungsaufgaben.
                                 </p>
                             </div>
                         </div>

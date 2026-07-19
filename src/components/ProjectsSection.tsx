@@ -4,26 +4,26 @@ const projects =[
     {
         id: 1,
         title:"Sinopoly Game",
-        description: "a Monopoly knock-off game, with lots of creativity",
+        description: "ein Spiel im Stil von 'Monopoly' mit viel Kreativität. Die Entwicklung dieses Spiels hat mir unglaublich spaß gemacht. ",
         image:"/projects/SinopolyImage.png",
         tags:["C#","Windows Forms"],
         gitHubURL: "https://github.com/sin-n581/SINOPOLY.git"
     },
      {
         id: 2,
-        title:"Project 2",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        title:"PORTFOLIO WEBSITE",
+        description: "Meine Profil-Website, die ich erstellt habe, um meine Projekte und Fähigkeiten zu präsentieren.",
         image:"/projects/PortfolioImage.png",
         tags:["TypeScript","React", "TailwindCSS"],
-        gitHubURL: "https://github.com/sin-n581/SINOPOLY.git"
+        gitHubURL: "https://github.com/sin-n581/My-Portfolio.git"
     },
      {
         id: 3,
-        title:"Projekt 3",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        image:"/projects/ProjektImage3.jpeg",
+        title:"TO DO LIST",
+        description: "Ein Projekt, bei dem ich viel über Backend-Entwicklung und Node.js gelernt habe.",
+        image:"/projects/To-Do-List.jpg",
         tags:["JavaScript","Node.js","React"],
-        gitHubURL: "https://github.com/sin-n581/SINOPOLY.git"
+        gitHubURL: "https://github.com/sin-n581/TO-DO-LIST.git"
     }
 ];
 
@@ -36,8 +36,8 @@ export const ProjectsSection =() => {
             </h2>
 
             <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-                Here are some of my recent projects. Each project was carefully
-                crafted with attention to detail, performance, and user experience,
+                Hier sind einige meiner Projekte. Jedes Projekt wurde mit viel Liebe zum 
+                Detail, mit Blick auf die Leistung und die Benutzerfreundlichkeit sorgfältig umgesetzt.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
