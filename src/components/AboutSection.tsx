@@ -1,4 +1,4 @@
-import {  Code, Settings, User } from "lucide-react";
+import {  Code, Network, User } from "lucide-react";
 
 export const AboutSection = () => {
     return (
@@ -14,8 +14,8 @@ export const AboutSection = () => {
                     <h3 className="text-2xl fon-semibold" >Passionate Web Developer & Tech Creator</h3>
                     <p className="text-muted-foreground">
                         Ich absolviere derzeit die Fachhochschulreife im Bereich
-                        Informatik an der Karl-Hofmann-Schule BBS Worms und möchte
-                        anschließend eine Ausbildung im Bereich Informatik oder Automatisierungstechnik beginnen.
+                        Informatik an der Karl-Hofmann-Schule Worms und möchte
+                        anschließend eine Ausbildung im Bereich Informatik beginnen.
                         
                     </p>
 
@@ -27,7 +27,7 @@ export const AboutSection = () => {
 
                     <p className="text-muted-foreground">
                         Mit meinem Portfolio möchte ich meine bisherigen Kenntnisse und Projekte präsentieren 
-                        und ein Unternehmen finden, bei dem ich im Rahmen eines Duales Studium den nächsten 
+                        und ein Unternehmen finden, bei dem ich im Rahmen eines Ausbildung den nächsten 
                         Schritt in meiner Karriere gehen kann.
                     </p>
 
@@ -80,13 +80,13 @@ export const AboutSection = () => {
                     <div className="gradient-border p-6 card-hover">
                         <div className="flex items-start gap-4">
                             <div className="p-3 rounded-full bg-primary/10"> 
-                            <Settings className="h-6 w-6 text-primary" />
+                            <Network className="h-6 w-6 text-primary" />
                             </div>
                             <div className="text-left">
-                                <h4 className="font-semibold text-lg">PCB</h4>
+                                <h4 className="font-semibold text-lg">Netzwerk</h4>
                                 <p className="text-muted-foreground">
-                                    Anbindung von Leiterplatten an Geräte wie 
-                                    Arduino für Automatisierungsaufgaben.
+                                     Entwurf und physische/logische Einrichtung von Netzwerken
+                                     sowie Serverräumen und Verkabelungen.
                                 </p>
                             </div>
                         </div>
